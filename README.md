@@ -1,31 +1,5 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![logo](http://t0.gstatic.com/images?q=tbn:ANd9GcQ9u48pu-6IB2FnnYl_H-15le_g8Dkt5d5RN-VWiWIl_-dyJdaa)
 
-Welcome USER_NAME,
+The Kalman filter was first used in the Apollo program to help estimate landing of the lunar module. At that time, only limited telemetry and height information was available, and an accurate estimate of the eventual positioning of the lunar module needed to be calculated from noisy data efficently and quickly.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
-
-## Reminders
-
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
-
-## Creating the Heroku app
-
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
+Since then, the use of the Kalman filter has been wide spread for image processing, target tracking and telemetry estimation. It is a little known but important estimation algorithm, often used in machine learning and other applications. Although there exist Kulman implementations in Python, I have started this project to better understand where Kalman can be applied by learning the math behind it and implementing it myself.
